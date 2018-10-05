@@ -1,6 +1,6 @@
 ﻿x + 3;3;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);-1 + 3 = 2;2 + 3 = 5;5 + 3 = 8
 3;x + 3;3 - 2 = 1;\mathbb R^{3\times 3};\mathbb N = \{0, 1, 2, \dots\};A^3
-+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;x + 3;\cos^2(x) + \sin^2(x) = 1;\mathbb R^2;\mathbb R;Application;\forall x, 0 + x = x + x + 0;p_i(\mathbf x + \mathbf y) = p_i(\mathbf x) + p_i(\mathbf y);(a - b)(a + b) = a^2 - b^2;(x,y,z) \in M^3 \Rightarrow d(x,z) \leq d(x,y) + d(y,z);\forall x, x + x = 2x;5 + 8 = 13;(\mathbb R, +);|x \cup y| + |x \cap y| = |x| + |y|;|A \cup \{x\}| = 1 + |A \backslash \{x\}|
++ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;x + 3;\cos^2(x) + \sin^2(x) = 1;\mathbb R^2;\mathbb R;Application;\forall x, 0 + x = x + x + 0;p_i(\mathbf x + \mathbf y) = p_i(\mathbf x) + p_i(\mathbf y);(a - b)(a + b) = a^2 - b^2;(x,y,z) \in M^3 \Rightarrow d(x,z) \leq d(x,y) + d(y,z);\forall x, x + x = 2x;5 + 8 = 13;(\mathbb R, +);|x \cup y| + |x \cap y| = |x| + |y|
 x - 2;2 = 1 + 1;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);-;3 - 2 = 1
 f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\sin(x);45x;x - 2;x + 3;\left(f(x)\right)^2;x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};f(x) = 0;f : M \subset A \rightarrow N \subset B,~x \mapsto f(x) ;f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;e^x - 2x - 1;e^x;\mathbb R
 \sin(x);f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\sin^2(x);|\sin(x)| = \sqrt{1 - \cos^2(x)};e^{\imath x} = \cos x + \imath \sin x;k \in \mathbb N \Rightarrow \sin (k\pi)=0;\sin(x) = \cos(\frac\pi 2 - x);\tan \phi = \frac{\sin\phi}{\cos\phi}
@@ -8,7 +8,7 @@ f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\sin(x);
 \mathbf u \cdot \nabla \mathbf u = -\frac1\rho\nabla p + \nu \nabla^2 \mathbf u + \mathbf g;\nabla \mathbf u =\frac{\partial u_i}{\partial x_j} \mathbf e_i \mathbf e_j;\nabla^2 \mathbf u = \nabla \cdot \nabla \mathbf u;Incompressible~Navier-Stokes
 im~G =\{b~|~b = G(a)\};Set;im~G = dom~G^{-1};G : A \rightarrow B,~a \mapsto b = G(a) 
 Set;im~G =\{b~|~b = G(a)\};\emptyset;Entity \in Set;\{x, y\};\{x\};x \cup y = \{u~|~u \in x \vee u \in y\};x \cap y = \{u~|~u \in x \wedge u \in y\};x \setminus y = \{u \in x : u \notin y\};A \times B = \{(a,b)~|~a\in A \wedge b \in B\};\textit{Partially ordered set};B \subset A^2;Magma;M;\Gamma = \{G_k : k\in I\} = im~G;\forall Set, Set \in \mathbb U
-\emptyset;Set;G(\{a\}) \neq \emptyset \Leftrightarrow a \in dom~G;|\emptyset| = 0;\forall A \in \mathbb U, \emptyset\subset A;x \cup \emptyset = x;x \cap \emptyset = \emptyset
+\emptyset;Set;G(\{a\}) \neq \emptyset \Leftrightarrow a \in dom~G;|\emptyset| = 0;\forall A \in \mathbb U, \emptyset\subset A;x \cup \emptyset = x;x \cap \emptyset = \emptyset;x \setminus y \cap y = \emptyset;x \setminus \emptyset = x
 \sin^2(x);\cos^2(x) + \sin^2(x) = 1;\sin(x);\left(f(x)\right)^2
 \cos^2(x) + \sin^2(x) = 1;\sin^2(x);1;|\sin(x)| = \sqrt{1 - \cos^2(x)};+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cos^2(x);|e^{\imath x}| = 1
 1;\cos^2(x) + \sin^2(x) = 1;\mathbb N = \{0, 1, 2, \dots\};\delta_{ij} = (i == j~?~1 : 0);\sqrt{1 - \cos^2(x)};3 - 2 = 1;\forall x, 1\cdot x = x = x\cdot 1;\mathcal{SO}(3, \mathbb R) = \{R \in \mathbb R^{3\times 3}~|~\det(R) = 1\};\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;e^x - 2x - 1;e^0 = 1;\forall\mathbf v\in V, 1\cdot\mathbf v=\mathbf v;|\{x\}| = 1;|A \cup \{x\}| = 1 + |A \backslash \{x\}|;2 = 1 + 1
@@ -37,15 +37,15 @@ Incompressible~Navier-Stokes;\nabla \cdot \mathbf u = 0;\mathbf u \cdot \nabla \
 \mathbb R;\textit{Totally ordered set};\mathbb Q \subset \mathbb R;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbb R^d, d\in \mathbb N_0;(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};\mathbb R_0 = \mathbb R \backslash \{0\};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
 Entity \in Set;\mathbf x \in \Omega;Set;x \in \{x\};x \in \{x, y\};y \in \{x, y\};M \in \mathbb R^{m\times n};\epsilon \in \mathbb R_0^+;\delta \in \mathbb R_0^+;x \in B_0(p, \delta);x \in P(A) \Leftrightarrow x\subset A
 \{x, y\};Set;x \in \{x, y\};y \in \{x, y\};\{x\}\subset\{x, y\};|\{x, y\}| = 2
-\{x\};Set;x \in \{x\};\{0\};y \in \{x\} \Leftrightarrow y = x;\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\{x\}\subset\{x, y\};|\{x\}| = 1;|A \cup \{x\}| = 1 + |A \backslash \{x\}|
+\{x\};Set;x \in \{x\};\{0\};y \in \{x\} \Leftrightarrow y = x;\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\{x\}\subset\{x, y\};|\{x\}| = 1
 x \in \{x\};\{x\};Entity \in Set
 x \in \{x, y\};\{x, y\};Entity \in Set
 y \in \{x, y\};\{x, y\};Entity \in Set
-x \cup y = \{u~|~u \in x \vee u \in y\};Set;[a,b) = {a} \cup (a,b);(a,b] = (a,b) \cup {b};\textit{Abelian monoid};x \cup \emptyset = x;|A \cup \{x\}| = 1 + |A \backslash \{x\}|;|x \cup y| + |x \cap y| = |x| + |y|
+x \cup y = \{u~|~u \in x \vee u \in y\};Set;[a,b) = {a} \cup (a,b);(a,b] = (a,b) \cup {b};\textit{Abelian monoid};x \cup \emptyset = x;|A \cup \{x\}| = 1 + |A \backslash \{x\}|;|x \cup y| + |x \cap y| = |x| + |y|;(x \setminus y) \cup (x \cap y) = x
 x \cap y = \{u~|~u \in x \wedge u \in y\};Set;G|_C = G \cap (C \times B);|x \cap y| \leq \min(|x|,|y|);\cap : P(A) \times P(A) \rightarrow P(A), (x, y) \mapsto x \cap y;x \cap \emptyset = \emptyset;|x \cup y| + |x \cap y| = |x| + |y|
 \mathbb N_0 = \mathbb N \setminus \{0\};\mathbb N = \{0, 1, 2, \dots\};\{0\};x \setminus y = \{u \in x : u \notin y\};A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;\mathbb R^d, d\in \mathbb N_0;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
 \{0\};\mathbb N_0 = \mathbb N \setminus \{0\};\{x\};0;\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};\mathbb R_0 = \mathbb R \backslash \{0\}
-x \setminus y = \{u \in x : u \notin y\};Set;\mathbb N_0 = \mathbb N \setminus \{0\};\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};|A \cup \{x\}| = 1 + |A \backslash \{x\}|
+x \setminus y = \{u \in x : u \notin y\};Set;\mathbb N_0 = \mathbb N \setminus \{0\};\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};|A \cup \{x\}| = 1 + |A \backslash \{x\}|;(x \setminus y) \cup (x \cap y) = x;x \setminus y \cap y = \emptyset;x \setminus \emptyset = x
 y \in \{x\} \Leftrightarrow y = x;\{x\}
 \textit{Totally ordered set};\mathbb N = \{0, 1, 2, \dots\};\mathbb R;\mathbb Z = \{\dots, -1, 0, 1, \dots\};\mathbb Q;\textit{Partially ordered set};\textit{Total order}
 Existential~quantifier;\exists;Quantifiers
@@ -256,13 +256,13 @@ a_i~is~the~i^{th}~coordinate~of~\mathbf v~in~B;\forall\mathbf v\in V, \exists\ma
 (\phi_i)_{i\in I_n}~is~a~basis~of~\mathcal U^h;\mathcal U^h = \left\{u^h : [a, b] \rightarrow \mathbb R, x \mapsto u^h(x) = \sum_{i = 1}^n a_i \phi_i(x)\right\};B~is~a~basis~of~V
 |I_n| = n;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
 |A \times B| = |A||B|;A \times B = \{(a,b)~|~a\in A \wedge b \in B\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|
-\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;|A \times B| = |A||B|; \mathbb U = \{Set, \forall Set\};\mathbb N = \{0, 1, 2, \dots\};|\emptyset| = 0;|\{x\}| = 1;|\{x, y\}| = 2;|x \cap y| \leq \min(|x|,|y|);|A \cup \{x\}| = 1 + |A \backslash \{x\}|;|x \cup y| + |x \cap y| = |x| + |y|
+\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;|A \times B| = |A||B|; \mathbb U = \{Set, \forall Set\};\mathbb N = \{0, 1, 2, \dots\};|\emptyset| = 0;|\{x\}| = 1;|\{x, y\}| = 2;|x \cap y| \leq \min(|x|,|y|);|x \cup y| + |x \cap y| = |x| + |y|
 \forall Set, Set \in \mathbb U;Set; \mathbb U = \{Set, \forall Set\}
  \mathbb U = \{Set, \forall Set\};\forall Set, Set \in \mathbb U;\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;\forall A \in \mathbb U, \emptyset\subset A
 |\emptyset| = 0;\emptyset;\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;0
 \{x\}\subset\{x, y\};\{x, y\};\{x\};x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y)
 \forall A \in \mathbb U, \emptyset\subset A;\emptyset; \mathbb U = \{Set, \forall Set\}
-|\{x\}| = 1;\{x\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;1
+|\{x\}| = 1;\{x\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;1;|A \cup \{x\}| = 1 + |A \backslash \{x\}|
 |\{x, y\}| = 2;\{x, y\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;2 = 1 + 1
 |x \cap y| \leq \min(|x|,|y|);x \cap y = \{u~|~u \in x \wedge u \in y\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;\min(x_1, x_2)=x_1\in\mathbb R \Leftrightarrow x_1 \leq x_2
 \min(x_1, x_2)=x_1\in\mathbb R \Leftrightarrow x_1 \leq x_2;|x \cap y| \leq \min(|x|,|y|);(x, y) \in \mathbb R^2 \Rightarrow x \leq y \vee y \leq x
@@ -271,5 +271,8 @@ x \in P(A) \Leftrightarrow x\subset A;\cap : P(A) \times P(A) \rightarrow P(A), 
 \forall x\in P(A), A\cap x = x;\cap : P(A) \times P(A) \rightarrow P(A), (x, y) \mapsto x \cap y
 x \cup \emptyset = x;x \cup y = \{u~|~u \in x \vee u \in y\};\emptyset
 x \cap \emptyset = \emptyset;\emptyset;x \cap y = \{u~|~u \in x \wedge u \in y\}
-|A \cup \{x\}| = 1 + |A \backslash \{x\}|;x \cup y = \{u~|~u \in x \vee u \in y\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;\{x\};1;x \setminus y = \{u \in x : u \notin y\};+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y
-|x \cup y| + |x \cap y| = |x| + |y|;x \cup y = \{u~|~u \in x \vee u \in y\};x \cap y = \{u~|~u \in x \wedge u \in y\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y
+|A \cup \{x\}| = 1 + |A \backslash \{x\}|;x \cup y = \{u~|~u \in x \vee u \in y\};1;x \setminus y = \{u \in x : u \notin y\};|x \cup y| + |x \cap y| = |x| + |y|;|\{x\}| = 1;(x \setminus y) \cup (x \cap y) = x
+|x \cup y| + |x \cap y| = |x| + |y|;x \cup y = \{u~|~u \in x \vee u \in y\};x \cap y = \{u~|~u \in x \wedge u \in y\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;|A \cup \{x\}| = 1 + |A \backslash \{x\}|
+(x \setminus y) \cup (x \cap y) = x;x \setminus y = \{u \in x : u \notin y\};x \cup y = \{u~|~u \in x \vee u \in y\};|A \cup \{x\}| = 1 + |A \backslash \{x\}|
+x \setminus y \cap y = \emptyset;x \setminus y = \{u \in x : u \notin y\};\emptyset
+x \setminus \emptyset = x;x \setminus y = \{u \in x : u \notin y\};\emptyset
