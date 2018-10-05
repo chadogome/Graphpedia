@@ -19,22 +19,22 @@ Set;im~G =\{b~|~b = G(a)\};\emptyset;Entity \in Set;\{x, y\};\{x\};x \cup y = \{
 \nabla^2 \mathbf u = \nabla \cdot \nabla \mathbf u;\mathbf u \cdot \nabla \mathbf u = -\frac1\rho\nabla p + \nu \nabla^2 \mathbf u + \mathbf g;\nabla \mathbf u =\frac{\partial u_i}{\partial x_j} \mathbf e_i \mathbf e_j;\nabla \bullet= \frac{\partial \bullet}{\partial x_i} \mathbf e_i
 \nabla \cdot \mathbf u = \frac{\partial u_i}{\partial x_i};\nabla \cdot \mathbf u = 0;\nabla \bullet= \frac{\partial \bullet}{\partial x_i} \mathbf e_i;\mathbf u(\mathbf x) = u_i(\mathbf x) \mathbf e_i
 \delta_{ij} = (i == j~?~1 : 0);\mathbf e_i \cdot \mathbf e_j = \delta_{ij};1;0;p_i(\mathbf e^j) = \delta_{ij}
-\Omega \subset \mathbb R^d;\mathbf x \in \Omega;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);\mathbb R^d, d\in \mathbb N_0
+\Omega \subset \mathbb R^d;\mathbf x \in \Omega;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);\mathbb R^n, n\in \mathbb N_0
 \mathbb N = \{0, 1, 2, \dots\};1;0;45;2 = 1 + 1;\mathbb N_0 = \mathbb N \setminus \{0\};\textit{Totally ordered set};\forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;G : \mathbb N \rightarrow B~|~k \mapsto G_k;3;\mathbb N \rightarrow \mathbb N, n \mapsto n!=n(n-1)! \\ \text{with } 0!=1;\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|
 45x;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);45
 |\sin(x)| = \sqrt{1 - \cos^2(x)};\cos^2(x) + \sin^2(x) = 1;\sin(x);\sqrt{1 - \cos^2(x)};|x| = \sqrt{x^2}
-0;\mathbb N = \{0, 1, 2, \dots\};\delta_{ij} = (i == j~?~1 : 0);\{0\};\forall x, 0 + x = x + x + 0;f(x) = 0;\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};d(x,y) = 0 \Leftrightarrow x = y;\lim_{x \rightarrow 0^+}\frac1x = +\infty;e^0 = 1;\lim_{x \rightarrow -\infty}e^x=0;|\emptyset| = 0
+0;\mathbb N = \{0, 1, 2, \dots\};\delta_{ij} = (i == j~?~1 : 0);\{0\};\forall x, 0 + x = x + x + 0;f(x) = 0;\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};d(x,y) = 0 \Leftrightarrow x = y;\lim_{x \rightarrow 0^+}\frac1x = +\infty;e^0 = 1;\lim_{x \rightarrow -\infty}e^x=0;|\emptyset| = 0;\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i
 45;45x;\mathbb N = \{0, 1, 2, \dots\}
-2 = 1 + 1;x - 2;\mathbb N = \{0, 1, 2, \dots\};A^2 = A \times A;-1 + 3 = 2;\mathbb R^{2\times 2};x^2 = M(x, x);\forall x, x + x = 2x;2 + 3 = 5;|\{x, y\}| = 2;1
+2 = 1 + 1;x - 2;\mathbb N = \{0, 1, 2, \dots\};A^2 = A \times A;-1 + 3 = 2;\mathbb R^{2\times 2};x^2 = x\cdot x;\forall x, x + x = 2x;2 + 3 = 5;|\{x, y\}| = 2;1
 \nabla \cdot \mathbf u = 0;\nabla \cdot \mathbf u = \frac{\partial u_i}{\partial x_i};Incompressible~Navier-Stokes
 Incompressible~Navier-Stokes;\nabla \cdot \mathbf u = 0;\mathbf u \cdot \nabla \mathbf u = -\frac1\rho\nabla p + \nu \nabla^2 \mathbf u + \mathbf g;Saddle~Point~problems
-\left(f(x)\right)^2;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\sin^2(x);x^2 = M(x, x)
+\left(f(x)\right)^2;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\sin^2(x);x^2 = x\cdot x
 -;x - 2;\sqrt{1 - \cos^2(x)};(a - b)(a + b) = a^2 - b^2;e^x - 2x - 1
 \cos^2(x);\cos(x);\cos^2(x) + \sin^2(x) = 1;\sqrt{1 - \cos^2(x)}
 \cos(x);\cos^2(x);e^{\imath x} = \cos x + \imath \sin x;k \in \mathbb N \Rightarrow \cos (k\pi) = (-1)^{k};\sin(x) = \cos(\frac\pi 2 - x);\tan \phi = \frac{\sin\phi}{\cos\phi}
 3 - 2 = 1;x - 2;1;3
 \nabla \bullet= \frac{\partial \bullet}{\partial x_i} \mathbf e_i;\nabla \cdot \mathbf u = \frac{\partial u_i}{\partial x_i};\nabla \mathbf u =\frac{\partial u_i}{\partial x_j} \mathbf e_i \mathbf e_j;\nabla^2 \mathbf u = \nabla \cdot \nabla \mathbf u
-\mathbb R;\textit{Totally ordered set};\mathbb Q \subset \mathbb R;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbb R^d, d\in \mathbb N_0;(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};\mathbb R_0 = \mathbb R \backslash \{0\};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
+\mathbb R;\textit{Totally ordered set};\mathbb Q \subset \mathbb R;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbb R^n, n\in \mathbb N_0;(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};\mathbb R_0 = \mathbb R \backslash \{0\};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
 Entity \in Set;\mathbf x \in \Omega;Set;x \in \{x\};x \in \{x, y\};y \in \{x, y\};M \in \mathbb R^{m\times n};\epsilon \in \mathbb R_0^+;\delta \in \mathbb R_0^+;x \in B_0(p, \delta);x \in P(A) \Leftrightarrow x\subset A
 \{x, y\};Set;x \in \{x, y\};y \in \{x, y\};\{x\}\subset\{x, y\};|\{x, y\}| = 2
 \{x\};Set;x \in \{x\};\{0\};y \in \{x\} \Leftrightarrow y = x;\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\{x\}\subset\{x, y\};|\{x\}| = 1
@@ -43,19 +43,19 @@ x \in \{x, y\};\{x, y\};Entity \in Set
 y \in \{x, y\};\{x, y\};Entity \in Set
 x \cup y = \{u~|~u \in x \vee u \in y\};Set;[a,b) = {a} \cup (a,b);(a,b] = (a,b) \cup {b};\textit{Abelian monoid};x \cup \emptyset = x;|A \cup \{x\}| = 1 + |A \backslash \{x\}|;|x \cup y| + |x \cap y| = |x| + |y|;(x \setminus y) \cup (x \cap y) = x
 x \cap y = \{u~|~u \in x \wedge u \in y\};Set;G|_C = G \cap (C \times B);|x \cap y| \leq \min(|x|,|y|);\cap : P(A) \times P(A) \rightarrow P(A), (x, y) \mapsto x \cap y;x \cap \emptyset = \emptyset;|x \cup y| + |x \cap y| = |x| + |y|
-\mathbb N_0 = \mathbb N \setminus \{0\};\mathbb N = \{0, 1, 2, \dots\};\{0\};x \setminus y = \{u \in x : u \notin y\};A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;\mathbb R^d, d\in \mathbb N_0;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
+\mathbb N_0 = \mathbb N \setminus \{0\};\mathbb N = \{0, 1, 2, \dots\};\{0\};x \setminus y = \{u \in x : u \notin y\};A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;\mathbb R^n, n\in \mathbb N_0;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
 \{0\};\mathbb N_0 = \mathbb N \setminus \{0\};\{x\};0;\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};\mathbb R_0 = \mathbb R \backslash \{0\}
 x \setminus y = \{u \in x : u \notin y\};Set;\mathbb N_0 = \mathbb N \setminus \{0\};\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};|A \cup \{x\}| = 1 + |A \backslash \{x\}|;(x \setminus y) \cup (x \cap y) = x;x \setminus y \cap y = \emptyset;x \setminus \emptyset = x
 y \in \{x\} \Leftrightarrow y = x;\{x\}
 \textit{Totally ordered set};\mathbb N = \{0, 1, 2, \dots\};\mathbb R;\mathbb Z = \{\dots, -1, 0, 1, \dots\};\mathbb Q;\textit{Partially ordered set};\textit{Total order}
 Existential~quantifier;\exists;Quantifiers
-\exists;Existential~quantifier;dom~G =  \{a\in A~|~(\exists b\in B : (a, b) \in G)\};\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\forall T \subset S, \exists g \in T~|~ \forall s \in T, s \leq g;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon)
+\exists;Existential~quantifier;dom~G =  \{a\in A~|~(\exists b\in B : (a, b) \in G)\};\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\forall T \subset S, \exists g \in T~|~ \forall s \in T, s \leq g;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i
 Universal~quantifier;\forall;Quantifiers
-\forall;Universal~quantifier;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\forall a, a' \in dom~G,~G(a) = G(a') \Rightarrow a = a';\forall T \subset S, \exists g \in T~|~ \forall s \in T, s \leq g;\forall x, 0 + x = x + x + 0;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\forall x, 1\cdot x = x = x\cdot 1;\forall\mathbf v\in V, 1\cdot\mathbf v=\mathbf v
+\forall;Universal~quantifier;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\forall a, a' \in dom~G,~G(a) = G(a') \Rightarrow a = a';\forall T \subset S, \exists g \in T~|~ \forall s \in T, s \leq g;\forall x, 0 + x = x + x + 0;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\forall x, 1\cdot x = x = x\cdot 1;\forall\mathbf v\in V, 1\cdot\mathbf v=\mathbf v;\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i
 Quantifiers;Universal~quantifier;Existential~quantifier
 A \times B = \{(a,b)~|~a\in A \wedge b \in B\};Set;G \subset A \times B;(a,b) \neq (b, a);A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;|A \times B| = |A||B|
 G \subset A \times B;A \times B = \{(a,b)~|~a\in A \wedge b \in B\};x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);dom~G =  \{a\in A~|~(\exists b\in B : (a, b) \in G)\};G^{-1} = \{(b ,a) \in B \times A~|~(a, b)\in G\};G|_C = G \cap (C \times B);B_1 = A_2 \Rightarrow G_2 \circ G_1 = \{(a_1, b_2) \in A_1 \times B_2~|~(\exists b_1 \in B_1~|~(a_1,b_1)\in G_1 \wedge (b_1, b_2)\in G_2)\};G~is~a~function \Leftrightarrow ((a,b) \in G \wedge (a, b') \in G \Rightarrow b = b');B \subset A^2
-x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);G \subset A \times B;\forall;\Omega \subset \mathbb R^d;x \subset y \wedge y \subset z \Rightarrow x \subset z;\textit{Partial order};I = I_n = \{1, \dots, n\} \subset \mathbb N_0;B = (\mathbf b_i)_{i\in I} \subset V;\{x\}\subset\{x, y\};x \in P(A) \Leftrightarrow x\subset A
+x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);G \subset A \times B;\forall;\Omega \subset \mathbb R^d;x \subset y \wedge y \subset z \Rightarrow x \subset z;\textit{Partial order};I = I_n = \{1, \dots, n\} \subset \mathbb N_0;B = (\mathbf b_i)_{i\in I} \subset V;\{x\}\subset\{x, y\};x \in P(A) \Leftrightarrow x\subset A;\mathbb Q \subset \mathbb R;f : M \subset A \rightarrow N \subset B,~x \mapsto f(x) 
 dom~G =  \{a\in A~|~(\exists b\in B : (a, b) \in G)\};G \subset A \times B;im~G = dom~G^{-1};\exists;G(\{a\}) \neq \emptyset \Leftrightarrow a \in dom~G;\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;dom~G = A
 G^{-1} = \{(b ,a) \in B \times A~|~(a, b)\in G\};G \subset A \times B;im~G = dom~G^{-1}
 im~G = dom~G^{-1};dom~G =  \{a\in A~|~(\exists b\in B : (a, b) \in G)\};G^{-1} = \{(b ,a) \in B \times A~|~(a, b)\in G\};Surjectivity \Leftrightarrow im~G = B;im~(H \circ G) = H(im~G);im~G =\{b~|~b = G(a)\};\Gamma = \{G_k : k\in I\} = im~G
@@ -85,12 +85,12 @@ G : \mathbb N \rightarrow B~|~k \mapsto G_k;(G_k)_{k\in\mathbb N}~is~a~suite;\ma
 \forall z \in \mathbb Z,\exists n \in \mathbb N ~|~ z = n \vee z = -n;\mathbb Z = \{\dots, -1, 0, 1, \dots\};\mathbb N = \{0, 1, 2, \dots\};\forall;\exists
 \mathbb Q;\textit{Totally ordered set};\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\mathbb Q \subset \mathbb R
 \forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\mathbb Q;\mathbb Z = \{\dots, -1, 0, 1, \dots\};\exists;\forall;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy
-\mathbb Q \subset \mathbb R;\mathbb Q;\mathbb R
+\mathbb Q \subset \mathbb R;\mathbb Q;\mathbb R;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y)
 A^2 = A \times A;\mathbb R^2;2 = 1 + 1;* : A \times A \rightarrow A, (a_1, a_2) \mapsto a_1 * a_2;B \subset A^2;(x,y) \in M^2;A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0
-\mathbb R^2;A^2 = A \times A;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};\mathbb R^d, d\in \mathbb N_0;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbf x = (x_i)_{i = 1,2} \in  \mathbb R^2;\mathbb R^{2\times 1}
+\mathbb R^2;A^2 = A \times A;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};\mathbb R^n, n\in \mathbb N_0;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbf x = (x_i)_{i = 1,2} \in  \mathbb R^2;\mathbb R^{2\times 1}
 \mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};\mathbb R^2;\imath^2 = -1;e^{\imath x} = \cos x + \imath \sin x;a = Re\{z\} = |z|\cos \phi;b = Im\{z\} = |z| \sin \phi;\bar z = a - b\imath
 \imath^2 = -1;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};-1
-\mathbb R^d, d\in \mathbb N_0;\Omega \subset \mathbb R^d;\mathbb R^2;p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;\mathbb R;\mathbb N_0 = \mathbb N \setminus \{0\}
+\mathbb R^n, n\in \mathbb N_0;\Omega \subset \mathbb R^d;\mathbb R^2;p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;\mathbb R;\mathbb N_0 = \mathbb N \setminus \{0\};\min_{\mathbf c\in\mathbb R^n} \|\boldsymbol\Phi\mathbf c-\mathbf U\|_2
 \cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\mathbb R^2;\mathbb R;Application;\forall q \in \mathbb Q,\exists z_1, z_2 \in \mathbb Z ~|~ qz_2 = z_1;\forall x, 1\cdot x = x = x\cdot 1;x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};\forall x, x + x = 2x;z = \frac xy \Rightarrow x = yz;(\mathbb R_0, \cdot)
 \forall x, 0 + x = x + x + 0;0;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\forall
 \forall x, 1\cdot x = x = x\cdot 1;1;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\forall
@@ -121,15 +121,15 @@ z = |z|e^{\imath \phi};|z|^2 = z\bar z = a^2 + b^2;a = Re\{z\} = |z|\cos \phi;b 
 a = Re\{z\} = |z|\cos \phi;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};\phi = atan2(b, a);z = |z|e^{\imath \phi}
 b = Im\{z\} = |z| \sin \phi;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};\phi = atan2(b, a);z = |z|e^{\imath \phi}
 \bar z = a - b\imath;\mathbb C = \{z = a + b\imath ~|~ a,b \in \mathbb R\};|z|^2 = z\bar z = a^2 + b^2
-|z|^2 = z\bar z = a^2 + b^2;\bar z = a - b\imath;z = |z|e^{\imath \phi};|e^{\imath x}| = 1;x^2 = M(x, x)
+|z|^2 = z\bar z = a^2 + b^2;\bar z = a - b\imath;z = |z|e^{\imath \phi};|e^{\imath x}| = 1;x^2 = x\cdot x
 \phi = atan2(b, a);b = Im\{z\} = |z| \sin \phi;a = Re\{z\} = |z|\cos \phi;\tan \phi = \frac{\sin\phi}{\cos\phi}
 \tan \phi = \frac{\sin\phi}{\cos\phi};\phi = atan2(b, a);\cos(x);\sin(x)
-x^2 = M(x, x);x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};2 = 1 + 1;\left(f(x)\right)^2;x = \sqrt{y} \Rightarrow y = x^2 ;|z|^2 = z\bar z = a^2 + b^2;(a - b)(a + b) = a^2 - b^2
-x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;x^2 = M(x, x);P(x) = \sum_{i = 0}^N a_i x^i;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
+x^2 = x\cdot x;x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};2 = 1 + 1;\left(f(x)\right)^2;x = \sqrt{y} \Rightarrow y = x^2 ;|z|^2 = z\bar z = a^2 + b^2;(a - b)(a + b) = a^2 - b^2
+x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;x^2 = x\cdot x;P(x) = \sum_{i = 0}^N a_i x^i;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
 P(x) = \sum_{i = 0}^N a_i x^i;x^n = x^{n - 1} \cdot x = x \cdot x^{n - 1};ax^2 + bx + c ;x^2 + \frac bax
-x = \sqrt{y} \Rightarrow y = x^2 ;x^2 = M(x, x);|x| = \sqrt{x^2};(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);\sqrt{1 - \cos^2(x)}
+x = \sqrt{y} \Rightarrow y = x^2 ;x^2 = x\cdot x;|x| = \sqrt{x^2};(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);\sqrt{1 - \cos^2(x)}
 |x| = \sqrt{x^2};x = \sqrt{y} \Rightarrow y = x^2 ;|\sin(x)| = \sqrt{1 - \cos^2(x)};d : \mathbb R^2 \rightarrow \mathbb R, (x,y) \mapsto |x-y|
-p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;\mathbb R^d, d\in \mathbb N_0;p_i(\mathbf e^j) = \delta_{ij};Application;p_i(\mathbf x + \mathbf y) = p_i(\mathbf x) + p_i(\mathbf y)
+p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;\mathbb R^n, n\in \mathbb N_0;p_i(\mathbf e^j) = \delta_{ij};Application;p_i(\mathbf x + \mathbf y) = p_i(\mathbf x) + p_i(\mathbf y)
 p_i(\mathbf e^j) = \delta_{ij};p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;\delta_{ij} = (i == j~?~1 : 0);\mathbf u(\mathbf x) = u_i(\mathbf x) \mathbf e_i
 p_i(\mathbf x + \mathbf y) = p_i(\mathbf x) + p_i(\mathbf y);p_i : \mathbb R^n \rightarrow \mathbb  R, \mathbf x \mapsto x_i;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y
 \mathbb N \rightarrow \mathbb N, n \mapsto n!=n(n-1)! \\ \text{with } 0!=1;\mathbb N = \{0, 1, 2, \dots\}
@@ -151,7 +151,7 @@ x^2 + \frac bax;a\left(x^2 + \frac bax + \frac ca\right);x^2 + \frac bax = (x + 
 x^2 + \frac bax = (x + \frac b{2a})^2 - \frac{b^2}{4a^2};x^2 + \frac bax;a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right)
 a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right);x^2 + \frac bax = (x + \frac b{2a})^2 - \frac{b^2}{4a^2};a\left(x^2 + \frac bax + \frac ca\right);(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right) = a(x - x_+)(x - x_-)
 (x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right);(a - b)(a + b) = a^2 - b^2;x_-^+ = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a};x = \sqrt{y} \Rightarrow y = x^2 
-(a - b)(a + b) = a^2 - b^2;(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);x^2 = M(x, x);-;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y
+(a - b)(a + b) = a^2 - b^2;(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right);x^2 = x\cdot x;-;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y
 a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right) = a(x - x_+)(x - x_-);a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right);x_-^+ = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a}
 x_-^+ = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a};a\left( (x + \frac b{2a})^2 - \frac{b^2 - 4ac}{4a^2}\right) = a(x - x_+)(x - x_-);(x - x_0)^2 - y_0 = \left((x - x_0) + \sqrt{y_0}\right)\left((x - x_0) -  \sqrt{y_0}\right)
 (a,b] = (a,b) \cup {b};(a,b) = \{x \in \mathbb R~|~a < x < b\};[a,b] = {a} \cup (a,b];x \cup y = \{u~|~u \in x \vee u \in y\}
@@ -199,11 +199,11 @@ d(x,y) = 0 \Leftrightarrow x = y;d : M^2 \rightarrow \mathbb R, (x,y) \mapsto d(
 Metric;d : M^2 \rightarrow \mathbb R, (x,y) \mapsto d(x,y)
 d : \mathbb R^2 \rightarrow \mathbb R, (x,y) \mapsto |x-y|;d : M^2 \rightarrow \mathbb R, (x,y) \mapsto d(x,y);|x| = \sqrt{x^2}
 (x,y,z) \in M^3 \Rightarrow d(x,z) \leq d(x,y) + d(y,z);d : M^2 \rightarrow \mathbb R, (x,y) \mapsto d(x,y);A^3;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;(x, y) \in \mathbb R^2 \Rightarrow x \leq y \vee y \leq x
-A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;A \times B = \{(a,b)~|~a\in A \wedge b \in B\};\mathbb N_0 = \mathbb N \setminus \{0\};A^2 = A \times A;A^3
+A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;A \times B = \{(a,b)~|~a\in A \wedge b \in B\};\mathbb N_0 = \mathbb N \setminus \{0\};A^2 = A \times A;A^3;\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i
 A^3;A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;3;(x,y,z) \in M^3 \Rightarrow d(x,z) \leq d(x,y) + d(y,z)
 (A, d_A);(M, d);\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon)
 (B, d_B);(M, d);\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon)
-f : M \subset A \rightarrow N \subset B,~x \mapsto f(x) ;G : A \rightarrow B,~a \mapsto b = G(a) ;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon);f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x)
+f : M \subset A \rightarrow N \subset B,~x \mapsto f(x) ;G : A \rightarrow B,~a \mapsto b = G(a) ;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon);f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y)
 \forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon);\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~x \in B_0(p, \delta) \Rightarrow f(x) \in B(L, \epsilon);\delta \in \mathbb R_0^+;\epsilon \in \mathbb R_0^+;f : M \subset A \rightarrow N \subset B,~x \mapsto f(x) ;(A, d_A);(B, d_B);(0,a) = \{x \in \mathbb R_0^+~|~ x < a\};\lim_{x \rightarrow p} f(x) = L
 (0,a) = \{x \in \mathbb R_0^+~|~ x < a\};(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R_0^+ = \mathbb R^+ \backslash \{0\};\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon)
 \lim_{x \rightarrow p} f(x) = L;\forall \epsilon \in \mathbb R_0^+, \exists \delta \in \mathbb R_0^+~|~d_A(x, p) \in (0, \delta) \Rightarrow d_B(f(x), L) \in (0, \epsilon);\lim_{x \rightarrow 0^+}\frac1x = +\infty;f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];\frac{df}{dx} = \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}h;\lim_{x \rightarrow -\infty}e^x=0
@@ -214,7 +214,7 @@ z = \frac xy \Rightarrow x = yz;\mathbb R \times \mathbb R_0 \rightarrow \mathbb
 \mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;\mathbb R \times \mathbb R_0 \rightarrow \mathbb R, (x, y) \mapsto \frac xy;\lim_{x \rightarrow 0^+}\frac1x = +\infty;1
 \lim_{x \rightarrow 0^+}\frac1x = +\infty;\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;\infty;0;\lim_{x \rightarrow p} f(x) = L
 \infty;\lim_{x \rightarrow 0^+}\frac1x = +\infty;\lim_{x \rightarrow -\infty}e^x=0
-f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\mathcal U^h = \left\{u^h : [a, b] \rightarrow \mathbb R, x \mapsto u^h(x) = \sum_{i = 1}^n a_i \phi_i(x)\right\};[a,b] = {a} \cup (a,b]
+f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};[a,b] = {a} \cup (a,b]
 f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;\lim_{x \rightarrow p} f(x) = L
 2 + 3 = 5;2 = 1 + 1;x + 3;5
 5;2 + 3 = 5;5 + 3 = 8;5 + 8 = 13
@@ -234,7 +234,7 @@ Field;Abelian~group;(A, +, *);Vector~space;(V, +, \cdot)~over~(A, +, *)
 (A, +, *);(\mathbb R, +, \cdot);Field;(A, *);a*(b+c) = (a*b) + (a*c);(V, +, \cdot)~over~(A, +, *)
 (A, *);Magma;* : A \times A \rightarrow A, (a_1, a_2) \mapsto a_1 * a_2;(A, +, *);(V, +)
 a*(b+c) = (a*b) + (a*c);(A, +, *)
-Vector~space;Field;\mathcal U^h = \left\{u^h : [a, b] \rightarrow \mathbb R, x \mapsto u^h(x) = \sum_{i = 1}^n a_i \phi_i(x)\right\};(V, +, \cdot)~over~(A, +, *)
+Vector~space;Field;\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};(V, +, \cdot)~over~(A, +, *)
 (V, +, \cdot)~over~(A, +, *);Field;(A, +, *);(V, +);a*(b\cdot\mathbf v) = (a*b)\cdot\mathbf v = ab\mathbf v;\cdot : A \times V \rightarrow V, (a,\mathbf v) \mapsto a\cdot\mathbf v = a\mathbf v;a\cdot(\mathbf v+\mathbf w) = a\cdot\mathbf v+a\cdot\mathbf w;(a + b)\cdot\mathbf v = a\cdot\mathbf v+b\cdot\mathbf w;B~is~a~basis~of~V;Vector~space
 (V, +);(V, +, \cdot)~over~(A, +, *);Abelian~group;(\mathbb R, +);(A, *)
 a*(b\cdot\mathbf v) = (a*b)\cdot\mathbf v = ab\mathbf v;(V, +, \cdot)~over~(A, +, *)
@@ -242,18 +242,18 @@ a*(b\cdot\mathbf v) = (a*b)\cdot\mathbf v = ab\mathbf v;(V, +, \cdot)~over~(A, +
 \forall\mathbf v\in V, 1\cdot\mathbf v=\mathbf v;\cdot : A \times V \rightarrow V, (a,\mathbf v) \mapsto a\cdot\mathbf v = a\mathbf v;\forall;1
 a\cdot(\mathbf v+\mathbf w) = a\cdot\mathbf v+a\cdot\mathbf w;(V, +, \cdot)~over~(A, +, *)
 (a + b)\cdot\mathbf v = a\cdot\mathbf v+b\cdot\mathbf w;(V, +, \cdot)~over~(A, +, *)
-\mathcal U^h = \left\{u^h : [a, b] \rightarrow \mathbb R, x \mapsto u^h(x) = \sum_{i = 1}^n a_i \phi_i(x)\right\};Vector~space;f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;(\phi_i)_{i\in I_n}~is~a~basis~of~\mathcal U^h
-B~is~a~basis~of~V;(V, +, \cdot)~over~(A, +, *);B = (\mathbf b_i)_{i\in I} \subset V;\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i;I = I_n = \{1, \dots, n\} \subset \mathbb N_0;(\phi_i)_{i\in I_n}~is~a~basis~of~\mathcal U^h
+\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};Vector~space;f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;(\phi_{i-1})_{i\in I_{n+1}}~is~a~basis~of~\mathcal U^h;u^h(X_i) = \sum_{j = 0}^n c_j \phi_j(X_i), i\in I_m
+B~is~a~basis~of~V;(V, +, \cdot)~over~(A, +, *);B = (\mathbf b_i)_{i\in I} \subset V;\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i;(\phi_{i-1})_{i\in I_{n+1}}~is~a~basis~of~\mathcal U^h
 G : I \rightarrow B~|~k \mapsto G_k = G(k);G : \mathbb N \rightarrow B~|~k \mapsto G_k;Application;(G_k)_{k\in I}~is~an~indexed~family;\mathbf b : I\rightarrow V, i\mapsto\mathbf b_i
 (G_k)_{k\in I}~is~an~indexed~family;G : I \rightarrow B~|~k \mapsto G_k = G(k);Surjection;\Gamma = \{G_k : k\in I\} = im~G;B = (\mathbf b_i)_{i\in I} \subset V
 \Gamma = \{G_k : k\in I\} = im~G;(G_k)_{k\in I}~is~an~indexed~family;Set;im~G = dom~G^{-1}
-B = (\mathbf b_i)_{i\in I} \subset V;B~is~a~basis~of~V;(G_k)_{k\in I}~is~an~indexed~family;\mathbf b : I\rightarrow V, i\mapsto\mathbf b_i;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y)
+B = (\mathbf b_i)_{i\in I} \subset V;B~is~a~basis~of~V;(G_k)_{k\in I}~is~an~indexed~family;\mathbf b : I\rightarrow V, i\mapsto\mathbf b_i;x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);I = I_n = \{1, \dots, n\} \subset \mathbb N_0
 \mathbf b : I\rightarrow V, i\mapsto\mathbf b_i;B = (\mathbf b_i)_{i\in I} \subset V;G : I \rightarrow B~|~k \mapsto G_k = G(k)
-\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;B~is~a~basis~of~V
-\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i;B~is~a~basis~of~V;a_i~is~the~i^{th}~coordinate~of~\mathbf v~in~B
-I = I_n = \{1, \dots, n\} \subset \mathbb N_0;B~is~a~basis~of~V;\mathbb N_0 = \mathbb N \setminus \{0\};x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);|I_n| = n
+\forall \mathbf a \in F^n, \sum_{i=1}^n a_i\mathbf b_i = 0 \Rightarrow a_i=0~\forall i;B~is~a~basis~of~V;A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;0;\forall
+\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i;B~is~a~basis~of~V;a_i~is~the~i^{th}~coordinate~of~\mathbf v~in~B;\forall;A^{n+1} = A^n\times A = A \times A^n, n \in \mathbb N_0;\exists
+I = I_n = \{1, \dots, n\} \subset \mathbb N_0;\mathbb N_0 = \mathbb N \setminus \{0\};x \subset y \Leftrightarrow (\forall u \in x \Rightarrow u \in y);|I_n| = n;u^h(X_i) = \sum_{j = 0}^n c_j \phi_j(X_i), i\in I_m;B = (\mathbf b_i)_{i\in I} \subset V;\boldsymbol\Phi = (\phi_{j-1}(X_i))_{(i,j)\in I_m \times I_n}\in\mathbb R^{m \times n}
 a_i~is~the~i^{th}~coordinate~of~\mathbf v~in~B;\forall\mathbf v\in V, \exists\mathbf a\in F^n |\mathbf v = \sum_{i =1}^n a_i\mathbf b_i
-(\phi_i)_{i\in I_n}~is~a~basis~of~\mathcal U^h;\mathcal U^h = \left\{u^h : [a, b] \rightarrow \mathbb R, x \mapsto u^h(x) = \sum_{i = 1}^n a_i \phi_i(x)\right\};B~is~a~basis~of~V
+(\phi_{i-1})_{i\in I_{n+1}}~is~a~basis~of~\mathcal U^h;\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};B~is~a~basis~of~V;\boldsymbol\Phi = (\phi_{j-1}(X_i))_{(i,j)\in I_m \times I_n}\in\mathbb R^{m \times n}
 |I_n| = n;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
 |A \times B| = |A||B|;A \times B = \{(a,b)~|~a\in A \wedge b \in B\};\# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|
 \# : \mathbb U \rightarrow \mathbb N, A \mapsto \#A = n(A) = |A|;|A \times B| = |A||B|; \mathbb U = \{Set, \forall Set\};\mathbb N = \{0, 1, 2, \dots\};|\emptyset| = 0;|\{x\}| = 1;|\{x, y\}| = 2;|x \cap y| \leq \min(|x|,|y|);|x \cup y| + |x \cap y| = |x| + |y|
@@ -276,3 +276,6 @@ x \cap \emptyset = \emptyset;\emptyset;x \cap y = \{u~|~u \in x \wedge u \in y\}
 (x \setminus y) \cup (x \cap y) = x;x \setminus y = \{u \in x : u \notin y\};x \cup y = \{u~|~u \in x \vee u \in y\};|A \cup \{x\}| = 1 + |A \backslash \{x\}|
 x \setminus y \cap y = \emptyset;x \setminus y = \{u \in x : u \notin y\};\emptyset
 x \setminus \emptyset = x;x \setminus y = \{u \in x : u \notin y\};\emptyset
+u^h(X_i) = \sum_{j = 0}^n c_j \phi_j(X_i), i\in I_m;\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};\min_{\mathbf c\in\mathbb R^n} \|\boldsymbol\Phi\mathbf c-\mathbf U\|_2;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
+\min_{\mathbf c\in\mathbb R^n} \|\boldsymbol\Phi\mathbf c-\mathbf U\|_2;u^h(X_i) = \sum_{j = 0}^n c_j \phi_j(X_i), i\in I_m;\boldsymbol\Phi = (\phi_{j-1}(X_i))_{(i,j)\in I_m \times I_n}\in\mathbb R^{m \times n};\mathbb R^n, n\in \mathbb N_0
+\boldsymbol\Phi = (\phi_{j-1}(X_i))_{(i,j)\in I_m \times I_n}\in\mathbb R^{m \times n};\min_{\mathbf c\in\mathbb R^n} \|\boldsymbol\Phi\mathbf c-\mathbf U\|_2;(\phi_{i-1})_{i\in I_{n+1}}~is~a~basis~of~\mathcal U^h;I = I_n = \{1, \dots, n\} \subset \mathbb N_0
