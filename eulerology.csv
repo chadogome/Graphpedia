@@ -214,7 +214,7 @@ z = \frac xy \Rightarrow x = yz;/ : \mathbb R \times \mathbb R_0 \rightarrow \ma
 \mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;/ : \mathbb R \times \mathbb R_0 \rightarrow \mathbb R, (x, y) \mapsto x/y;\lim_{x \rightarrow 0^+}\frac1x = +\infty;1;f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;x^{-1} = 1/x
 \lim_{x \rightarrow 0^+}\frac1x = +\infty;\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;\infty;0;\lim_{x \rightarrow p} f(x) = L
 \infty;\lim_{x \rightarrow 0^+}\frac1x = +\infty;\lim_{x \rightarrow -\infty}e^x=0
-f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};[a,b] = {a} \cup (a,b];\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x;f(0)
+f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\mathcal U^h=\left\{u^h:[a,b]\rightarrow\mathbb R,u^h(x) = \sum_{j = 0}^n c_j \phi_j(x)\right\};[a,b] = {a} \cup (a,b];\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x
 f~continuous~at~c \Leftrightarrow \lim_{x \rightarrow c} f(x) = f(c),~c \in [a,b];f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;\lim_{x \rightarrow p} f(x) = L
 2 + 3 = 5;2 = 1 + 1;x + 3;5
 5;2 + 3 = 5;5 + 3 = 8;5 + 8 = 13;\mathbb N = \{0, 1, 2, \dots\};5 \in Im(Fibo(0, 1))
@@ -294,7 +294,7 @@ a \left(x_-^+\right)^2 + b x_-^+ + c = 0;x_-^+ = \frac{- b \pm \sqrt{b^2 - 4ac}}
 x^{-1} = 1/x;\mathbb R_0\times\mathbb Z\rightarrow\mathbb R_0, (x,n) \mapsto x^n = x^{n - 1} \cdot x ;\mathbb R_0 \rightarrow \mathbb R_0, x \mapsto \frac1x
 x^n = x^{n - 1} \cdot x;\mathbb R_0\times\mathbb Z\rightarrow\mathbb R_0, (x,n) \mapsto x^n = x^{n - 1} \cdot x ;\cdot : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x\cdot y = xy;\forall n\in\mathbb N_0, 0^n = 0
 \forall n\in\mathbb N_0, 0^n = 0;x^n = x^{n - 1} \cdot x;\mathbb R_0\times\mathbb Z\rightarrow\mathbb R_0, (x,n) \mapsto x^n = x^{n - 1} \cdot x ;\mathbb N_0 = \mathbb N \setminus \{0\};0
-f(0);0;f : [a, b] \rightarrow \mathbb R,~x \mapsto f(x) ;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);0 \in A;e^0 = 1
+f(0);0;f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);0 \in A;e^0 = 1
 0 \in A;f(0);Entity \in Set
 Fibo:\mathbb R^2 \mapsto \mathbb R^\infty, (x_0, x_1) \mapsto (x_{i+1} = x_i + x_{i-1})_{i\in\mathbb N_0};Fibo(0, 1):\mathbb N\rightarrow\mathbb N, n \mapsto x_n;\mathbb R^\infty=\{(x_i)_{i\in\mathbb N} : \mathbb N\mapsto\mathbb R, i\mapsto x_i\}
 n \in Im(Fibo(0, 1));Entity \in Set;0 \in Im(Fibo(0, 1));1 \in Im(Fibo(0, 1));2 \in Im(Fibo(0, 1));3 \in Im(Fibo(0, 1));5 \in Im(Fibo(0, 1));8 \in Im(Fibo(0, 1));Fibo(0, 1):\mathbb N\rightarrow\mathbb N, n \mapsto x_n
