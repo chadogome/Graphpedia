@@ -320,25 +320,44 @@ n\in\mathbb N_0;\mathbb R^n;\bullet \in\mathbb N_0
 \bullet \in\mathbb N_0;n\in\mathbb N_0;\mathbb N_0 = \mathbb N \setminus \{0\};Entity \in Set;d\in\mathbb N_0
 (a - b)^2 = a^2 - 2ab + b^2;x^2 = x\cdot x
 \pi\in\mathbb R;\pi = 3.141592653589793...;\mathbb R;Entity \in Set
-c:a\in \mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b]
-s: \mathbb R;c:a\in \mathbb R;c:b\in\mathbb R;c: 0
+c:a\in \mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];a=b;|a|;a < 0 \Rightarrow |a - 0| = 0 - a;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a+b
+s: \mathbb R;c:a\in \mathbb R;c:b\in\mathbb R;c:0\in\mathbb R;c:\epsilon\in\mathbb R
 a < b;c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
-c:b\in\mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b]
+c:b\in\mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];a=b;a+b
 b > a;c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
-c: ordering~in~\mathbb R;a < b;b > a;b-a>0;a < b~\vee~ a=b ;a<x<b
-c: 0;s: \mathbb R;b-a>0
+c: ordering~in~\mathbb R;a < b;b > a;b-a>0;a < b~\vee~ a=b ;a<x<b;a > 0 \Rightarrow |a| = a;a < 0 \Rightarrow |a - 0| = 0 - a;a-\epsilon<x<a+\epsilon;|x-a| < \epsilon
+c:0\in\mathbb R;s: \mathbb R;b-a>0;a > 0 \Rightarrow |a| = a;a < 0 \Rightarrow |a - 0| = 0 - a
 b-a;c:a\in \mathbb R;c:b\in\mathbb R;c: subtraction~in~\mathbb R
-c: subtraction~in~\mathbb R;b-a;b-a>0
-b-a>0;c: subtraction~in~\mathbb R;c: ordering~in~\mathbb R;c: 0
-(a,b);c:a\in \mathbb R;s: open~interval~in~\mathbb R;c:b\in\mathbb R
-s: open~interval~in~\mathbb R;(a,b);c:x\in (a,b)
+c: subtraction~in~\mathbb R;b-a;b-a>0;a < 0 \Rightarrow |a - 0| = 0 - a;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a-\epsilon<x<a+\epsilon
+b-a>0;c: subtraction~in~\mathbb R;c: ordering~in~\mathbb R;c:0\in\mathbb R
+(a,b);c:a\in \mathbb R;s: open~interval~in~\mathbb R;c:b\in\mathbb R;s: open~intervals~in~\mathbb R
+s: open~interval~in~\mathbb R;(a,b);c:x\in (a,b);s:P(\mathbb R);s: open~intervals~in~\mathbb R
 c:x\in (a,b);s: open~interval~in~\mathbb R;a<x<b
 a<x<b;c:x\in (a,b);c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
 a < b~\vee~ a=b ;c:a\in \mathbb R;c:b\in\mathbb R;c: a \leq b;c: ordering~in~\mathbb R;c:equality~in~\mathbb R
 c: a \leq b;a < b~\vee~ a=b ;a\leq x\leq b
-c:equality~in~\mathbb R;a < b~\vee~ a=b ;a=b
-a=b;c:equality~in~\mathbb R
+c:equality~in~\mathbb R;a < b~\vee~ a=b ;a=b;a > 0 \Rightarrow |a| = a
+a=b;c:equality~in~\mathbb R;c:b\in\mathbb R;c:a\in \mathbb R
 a\leq x\leq b;c: a \leq b;c:x\in[a,b];c:b\in\mathbb R;c:a\in \mathbb R
 c:x\in[a,b];a\leq x\leq b;s:closed~interval~in~\mathbb R
-s:closed~interval~in~\mathbb R;c:x\in[a,b];[a,b]
+s:closed~interval~in~\mathbb R;c:x\in[a,b];[a,b];s:P(\mathbb R)
 [a,b];s:closed~interval~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
+a < x \leq b;c:a\in \mathbb R;c:b\in\mathbb R;c:x\in(a,b]
+c:x\in(a,b];a < x \leq b;s:half~open~interval~in~\mathbb R
+s:half~open~interval~in~\mathbb R;c:x\in(a,b];(a,b];s:P(\mathbb R)
+(a,b];s:half~open~interval~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
+|a|;c:a\in \mathbb R;c:absolute~value
+c:absolute~value;|a|;a > 0 \Rightarrow |a| = a;a < 0 \Rightarrow |a - 0| = 0 - a;|x-a| < \epsilon
+a > 0 \Rightarrow |a| = a;c:absolute~value;c: ordering~in~\mathbb R;c:0\in\mathbb R;c:equality~in~\mathbb R
+a < 0 \Rightarrow |a - 0| = 0 - a;c:absolute~value;c: ordering~in~\mathbb R;c:a\in \mathbb R;c: subtraction~in~\mathbb R;c:0\in\mathbb R
+c:\epsilon\in\mathbb R;s: \mathbb R;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a-\epsilon<x<a+\epsilon
+|x-a| < \epsilon;c:\epsilon\in\mathbb R;c:a\in \mathbb R;c:absolute~value;c: subtraction~in~\mathbb R;c:x\in B(a,\epsilon);c: ordering~in~\mathbb R
+c:x\in B(a,\epsilon);|x-a| < \epsilon;s:B(a,\epsilon);a-\epsilon<x<a+\epsilon
+s:B(a,\epsilon);c:x\in B(a,\epsilon);(a-\epsilon,a+\epsilon);s: open~intervals~in~\mathbb R
+(a-\epsilon,a+\epsilon);s:B(a,\epsilon);c:a\in \mathbb R;c: subtraction~in~\mathbb R;c:\epsilon\in\mathbb R;c:addition~in~\mathbb R
+s:P(\mathbb R);s: open~interval~in~\mathbb R;s:half~open~interval~in~\mathbb R;s:closed~interval~in~\mathbb R;s:P(P(\mathbb R))
+s:P(P(\mathbb R));s:P(\mathbb R);s: open~intervals~in~\mathbb R
+s: open~intervals~in~\mathbb R;s: open~interval~in~\mathbb R;s:P(P(\mathbb R));(a,b);s:B(a,\epsilon)
+c:addition~in~\mathbb R;(a-\epsilon,a+\epsilon);a+b;a-\epsilon<x<a+\epsilon
+a+b;c:addition~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
+a-\epsilon<x<a+\epsilon;c:x\in B(a,\epsilon);c:addition~in~\mathbb R;c: subtraction~in~\mathbb R;c:\epsilon\in\mathbb R;c: ordering~in~\mathbb R
