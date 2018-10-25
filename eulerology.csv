@@ -34,7 +34,7 @@ Incompressible~Navier-Stokes;\nabla \cdot \mathbf u = 0;\mathbf u \cdot \nabla \
 \cos:\mathbb R\rightarrow[-1,1],x\mapsto\cos(x);\cos^2(x);e^{\imath x} = \cos x + \imath \sin x;k \in \mathbb N \Rightarrow \cos (k\pi) = (-1)^{k};\sin(x) = \cos(\frac\pi 2 - x);\tan \phi = \frac{\sin\phi}{\cos\phi};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);[-1,1]
 3 - 2 = 1;x - 2;c:1\in\mathbb N;c:3\in\mathbb N
 \nabla \bullet= \frac{\partial \bullet}{\partial x_i} \mathbf e_i;\nabla \cdot \mathbf u = \frac{\partial u_i}{\partial x_i};\nabla \mathbf u =\frac{\partial u_i}{\partial x_j} \mathbf e_i \mathbf e_j;\nabla^2 \mathbf u = \nabla \cdot \nabla \mathbf u
-\mathbb R;\textit{Totally ordered set};\mathbb Q \subset \mathbb R;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\mathbb R^n;(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};\mathbb R_0 = \mathbb R \backslash \{0\};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\pi\in\mathbb R
+\mathbb R;\textit{Totally ordered set};\mathbb Q \subset \mathbb R;+ : \mathbb R^2 \rightarrow \mathbb R, (x, y) \mapsto x + y;\mathbb R^n;(a,b) = \{x \in \mathbb R~|~a < x < b\};\mathbb R^+ = \{ x \in \mathbb R | x \geq 0 \};\mathbb R_0 = \mathbb R \backslash \{0\};f : A \subset \mathbb R \rightarrow B \subset \mathbb R, x \mapsto f(x);\pi\in\mathbb R;s: \mathbb R
 Entity \in Set;\mathbf x \in \Omega;s:sets~of~sets;x \in \{x\};x \in \{x, y\};y \in \{x, y\};c:M\in\mathbb R^{m\times n};\epsilon \in \mathbb R_0^+;\delta \in \mathbb R_0^+;x \in B_0(p, \delta);x \in P(A) \Leftrightarrow x\subset A;\boldsymbol\Phi = (\phi_{j-1}(X_i))_{(i,j)\in I_m \times I_n}\in\mathbb R^{m \times n};0 \in A;n \in Im(Fibo(0, 1));\bullet \in\mathbb N_0;\pi\in\mathbb R
 \{x, y\};s:sets~of~sets;x \in \{x, y\};y \in \{x, y\};\{x\}\subset\{x, y\};|\{x, y\}| = 2;\{0,1\}\subset\mathbb N
 \{x\};s:sets~of~sets;x \in \{x\};\{0\};y \in \{x\} \Leftrightarrow y = x;\forall a \in dom~G, \exists b \in im~G~|~\{b\} = G(\{a\}) ;\{x\}\subset\{x, y\};|\{x\}| = 1
@@ -320,46 +320,46 @@ n\in\mathbb N_0;\mathbb R^n;\bullet \in\mathbb N_0
 \bullet \in\mathbb N_0;n\in\mathbb N_0;\mathbb N_0 = \mathbb N \setminus \{0\};Entity \in Set;d\in\mathbb N_0
 (a - b)^2 = a^2 - 2ab + b^2;x^2 = x\cdot x
 \pi\in\mathbb R;\pi = 3.141592653589793...;\mathbb R;Entity \in Set
-c:a\in \mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];e:a=b;|a|;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a+b;a<0;t:|a-0|=0-a
-s: \mathbb R;c:a\in \mathbb R;c:b\in\mathbb R;c:0\in\mathbb R;c:\epsilon\in\mathbb R;c:M_{11}\in\mathbb R;c:M_{12}\in\mathbb R;c:M_{21}\in\mathbb R;c:M_{22}\in\mathbb R
-a < b;c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
-c:b\in\mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];e:a=b;a+b
-b > a;c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
+i:a\in \mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];a=b;r:|a|;(a-\epsilon,a+\epsilon);a+b;a<0;t:|a-0|=0-a;x-a
+s: \mathbb R;i:a\in \mathbb R;i:b\in\mathbb R;i:0\in\mathbb R;c:\epsilon\in\mathbb R;c:M_{11}\in\mathbb R;c:M_{12}\in\mathbb R;c:M_{21}\in\mathbb R;c:M_{22}\in\mathbb R;s:P(\mathbb R);\mathbb R
+a < b;i:a\in \mathbb R;i:b\in\mathbb R;c: ordering~in~\mathbb R
+i:b\in\mathbb R;s: \mathbb R;a < b;b > a;b-a;(a,b);a<x<b;a < b~\vee~ a=b ;a\leq x\leq b;[a,b];a < x \leq b;(a,b];a=b;a+b
+b > a;i:a\in \mathbb R;i:b\in\mathbb R;c: ordering~in~\mathbb R
 c: ordering~in~\mathbb R;a < b;b > a;b-a>0;a < b~\vee~ a=b ;a<x<b;p:a>0\Rightarrow|a|=a;a-\epsilon<x<a+\epsilon;|x-a| < \epsilon;a<0
-c:0\in\mathbb R;s: \mathbb R;b-a>0;p:a>0\Rightarrow|a|=a;p:a<0\Rightarrow|a-0|=0-a
-b-a;c:a\in \mathbb R;c:b\in\mathbb R;c: subtraction~in~\mathbb R
-c: subtraction~in~\mathbb R;b-a;b-a>0;p:a<0\Rightarrow|a-0|=0-a;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a-\epsilon<x<a+\epsilon;s:operators~in~\mathbb R;e:\det(M)=M_{11}M_{22}-M_{12}M_{21};t:|a-0|=0-a
-b-a>0;c: subtraction~in~\mathbb R;c: ordering~in~\mathbb R;c:0\in\mathbb R
-(a,b);c:a\in \mathbb R;s: open~interval~in~\mathbb R;c:b\in\mathbb R;s: open~intervals~in~\mathbb R
+i:0\in\mathbb R;s: \mathbb R;b-a>0;p:a>0\Rightarrow|a|=a;p:a<0\Rightarrow|a-0|=0-a
+b-a;i:a\in \mathbb R;i:b\in\mathbb R;c: subtraction~in~\mathbb R
+c: subtraction~in~\mathbb R;b-a;b-a>0;p:a<0\Rightarrow|a-0|=0-a;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a-\epsilon<x<a+\epsilon;s:operators~in~\mathbb R;e:\det(M)=M_{11}M_{22}-M_{12}M_{21};t:|a-0|=0-a;x-a
+b-a>0;c: subtraction~in~\mathbb R;c: ordering~in~\mathbb R;i:0\in\mathbb R
+(a,b);i:a\in \mathbb R;s: open~interval~in~\mathbb R;i:b\in\mathbb R;s: open~intervals~in~\mathbb R
 s: open~interval~in~\mathbb R;(a,b);c:x\in (a,b);s:P(\mathbb R);s: open~intervals~in~\mathbb R
 c:x\in (a,b);s: open~interval~in~\mathbb R;a<x<b
-a<x<b;c:x\in (a,b);c:a\in \mathbb R;c:b\in\mathbb R;c: ordering~in~\mathbb R
-a < b~\vee~ a=b ;c:a\in \mathbb R;c:b\in\mathbb R;c: a \leq b;c: ordering~in~\mathbb R;c:equality~in~\mathbb R
+a<x<b;c:x\in (a,b);i:a\in \mathbb R;i:b\in\mathbb R;c: ordering~in~\mathbb R
+a < b~\vee~ a=b ;i:a\in \mathbb R;i:b\in\mathbb R;c: a \leq b;c: ordering~in~\mathbb R;c:equality~in~\mathbb R
 c: a \leq b;a < b~\vee~ a=b ;a\leq x\leq b
-c:equality~in~\mathbb R;a < b~\vee~ a=b ;e:a=b;p:a>0\Rightarrow|a|=a
-e:a=b;c:equality~in~\mathbb R;c:b\in\mathbb R;c:a\in \mathbb R
-a\leq x\leq b;c: a \leq b;c:x\in[a,b];c:b\in\mathbb R;c:a\in \mathbb R
+c:equality~in~\mathbb R;a < b~\vee~ a=b ;a=b;p:a>0\Rightarrow|a|=a
+a=b;c:equality~in~\mathbb R;i:b\in\mathbb R;i:a\in \mathbb R
+a\leq x\leq b;c: a \leq b;c:x\in[a,b];i:b\in\mathbb R;i:a\in \mathbb R
 c:x\in[a,b];a\leq x\leq b;s:closed~interval~in~\mathbb R
 s:closed~interval~in~\mathbb R;c:x\in[a,b];[a,b];s:P(\mathbb R)
-[a,b];s:closed~interval~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
-a < x \leq b;c:a\in \mathbb R;c:b\in\mathbb R;c:x\in(a,b]
+[a,b];s:closed~interval~in~\mathbb R;i:a\in \mathbb R;i:b\in\mathbb R
+a < x \leq b;i:a\in \mathbb R;i:b\in\mathbb R;c:x\in(a,b]
 c:x\in(a,b];a < x \leq b;s:half~open~interval~in~\mathbb R
 s:half~open~interval~in~\mathbb R;c:x\in(a,b];(a,b];s:P(\mathbb R)
-(a,b];s:half~open~interval~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
-|a|;c:a\in \mathbb R;c:absolute~value
-c:absolute~value;|a|;p:a>0\Rightarrow|a|=a;|x-a| < \epsilon;t:|a-0|=0-a
-p:a>0\Rightarrow|a|=a;c:absolute~value;c: ordering~in~\mathbb R;c:0\in\mathbb R;c:equality~in~\mathbb R;t:|a-0|=0-a;h:a~is~negative
-p:a<0\Rightarrow|a-0|=0-a;c: subtraction~in~\mathbb R;c:0\in\mathbb R;h:a~is~negative;t:|a-0|=0-a
+(a,b];s:half~open~interval~in~\mathbb R;i:a\in \mathbb R;i:b\in\mathbb R
+r:|a|;i:a\in \mathbb R;o:absolute~value;t:|a-0|=0-a
+o:absolute~value;r:|a|;p:a>0\Rightarrow|a|=a;t:|a-0|=0-a;r:|x-a|
+p:a>0\Rightarrow|a|=a;o:absolute~value;c: ordering~in~\mathbb R;i:0\in\mathbb R;c:equality~in~\mathbb R;t:|a-0|=0-a;h:a~is~positive
+p:a<0\Rightarrow|a-0|=0-a;c: subtraction~in~\mathbb R;i:0\in\mathbb R;h:a~is~negative;t:|a-0|=0-a
 c:\epsilon\in\mathbb R;s: \mathbb R;|x-a| < \epsilon;(a-\epsilon,a+\epsilon);a-\epsilon<x<a+\epsilon
-|x-a| < \epsilon;c:\epsilon\in\mathbb R;c:a\in \mathbb R;c:absolute~value;c: subtraction~in~\mathbb R;c:x\in B(a,\epsilon);c: ordering~in~\mathbb R
-c:x\in B(a,\epsilon);|x-a| < \epsilon;s:B(a,\epsilon);a-\epsilon<x<a+\epsilon
+|x-a| < \epsilon;c:\epsilon\in\mathbb R;c: subtraction~in~\mathbb R;c:x\in B(a,\epsilon);c: ordering~in~\mathbb R;r:|x-a|
+c:x\in B(a,\epsilon);|x-a| < \epsilon;s:B(a,\epsilon);a-\epsilon<x<a+\epsilon;x-a
 s:B(a,\epsilon);c:x\in B(a,\epsilon);(a-\epsilon,a+\epsilon);s: open~intervals~in~\mathbb R
-(a-\epsilon,a+\epsilon);s:B(a,\epsilon);c:a\in \mathbb R;c: subtraction~in~\mathbb R;c:\epsilon\in\mathbb R;c:addition~in~\mathbb R
-s:P(\mathbb R);s: open~interval~in~\mathbb R;s:half~open~interval~in~\mathbb R;s:closed~interval~in~\mathbb R;s:P(P(\mathbb R))
+(a-\epsilon,a+\epsilon);s:B(a,\epsilon);i:a\in \mathbb R;c: subtraction~in~\mathbb R;c:\epsilon\in\mathbb R;c:addition~in~\mathbb R
+s:P(\mathbb R);s: open~interval~in~\mathbb R;s:half~open~interval~in~\mathbb R;s:closed~interval~in~\mathbb R;s:P(P(\mathbb R));o: power~set;s: \mathbb R
 s:P(P(\mathbb R));s:P(\mathbb R);s: open~intervals~in~\mathbb R;s:sets~of~sets
 s: open~intervals~in~\mathbb R;s: open~interval~in~\mathbb R;s:P(P(\mathbb R));(a,b);s:B(a,\epsilon)
 c:addition~in~\mathbb R;(a-\epsilon,a+\epsilon);a+b;a-\epsilon<x<a+\epsilon;s:operators~in~\mathbb R
-a+b;c:addition~in~\mathbb R;c:a\in \mathbb R;c:b\in\mathbb R
+a+b;c:addition~in~\mathbb R;i:a\in \mathbb R;i:b\in\mathbb R
 a-\epsilon<x<a+\epsilon;c:x\in B(a,\epsilon);c:addition~in~\mathbb R;c: subtraction~in~\mathbb R;c:\epsilon\in\mathbb R;c: ordering~in~\mathbb R
 s:spaces~of~linear~operators~on~\mathbb R^n;s:\mathbb R^{m\times n};s:\mathbb R^{2\times 1};\{\mathbb R^{m\times n},(m,n)\in\mathbb N_0^2\};s:\mathbb R^{n\times n};s:\mathbb R^{2\times 2}
 \{\mathbb R^{m\times n},(m,n)\in\mathbb N_0^2\};s:spaces~of~linear~operators~on~\mathbb R^n;s:\mathbb R^{m\times n}
@@ -376,7 +376,11 @@ s:operators~in~\mathbb R;c:multiplication~in~\mathbb R;c: subtraction~in~\mathbb
 1+1;c:2\in\mathbb N;c:1\in\mathbb N
 \{0, 1, 2, \dots\};s:\mathbb N;c:0\in\mathbb N;c:2\in\mathbb N;c:1\in\mathbb N
 c:\mathbb U;s:sets~of~sets;\forall Set, Set \in \mathbb U;\forall A \in \mathbb U, \emptyset\subset A
-h:a~is~negative;p:a<0\Rightarrow|a-0|=0-a;a<0;a\in\mathbb R_0^-;t:|a-0|=0-a;p:a>0\Rightarrow|a|=a
-a<0;h:a~is~negative;c: ordering~in~\mathbb R;c:a\in \mathbb R
+h:a~is~negative;p:a<0\Rightarrow|a-0|=0-a;a<0;a\in\mathbb R_0^-;t:|a-0|=0-a
+a<0;h:a~is~negative;c: ordering~in~\mathbb R;i:a\in \mathbb R
 a\in\mathbb R_0^-;h:a~is~negative
-t:|a-0|=0-a;p:a<0\Rightarrow|a-0|=0-a;c: subtraction~in~\mathbb R;c:absolute~value;c:a\in \mathbb R;h:a~is~negative;p:a>0\Rightarrow|a|=a
+t:|a-0|=0-a;p:a<0\Rightarrow|a-0|=0-a;c: subtraction~in~\mathbb R;o:absolute~value;i:a\in \mathbb R;h:a~is~negative;p:a>0\Rightarrow|a|=a;r:|a|
+r:|x-a|;|x-a| < \epsilon;x-a;o:absolute~value
+x-a;r:|x-a|;c: subtraction~in~\mathbb R;i:a\in \mathbb R;c:x\in B(a,\epsilon)
+h:a~is~positive;p:a>0\Rightarrow|a|=a
+o: power~set;s:P(\mathbb R)
