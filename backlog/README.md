@@ -40,6 +40,11 @@ Well ordered vs least element
 
 Fundamental theorem of equivalence relations 
 
+
+
+Geometry (triangles defined by 3 vertices, line by 2 points, ...)
+Graph theory
+Kernel
  
 
 Phone ? Offline coupled with github ? 
